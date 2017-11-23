@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/LinearLayoutItem">
+    <LinearLayout
+        android:id="@+id/linearLayoutDetails"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:contentDescription="@string/item_image_cd"
+            android:layout_margin="5dp"
+            android:id="@+id/ImageViewItem"
+            android:layout_height="60dp"
+            android:layout_width="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/TextViewItem"
+            android:textSize="26sp"
+            android:text="@string/item_game_title"
+            android:textColor="#000000"
+            android:minLines="2"
+            android:maxWidth="150dp"/>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/linearLayoutQuantity"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_quantity"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/textViewQuantity"/>
+    </LinearLayout>
+
+</LinearLayout>

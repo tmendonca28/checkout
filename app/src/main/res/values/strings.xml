@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Checkout</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email already exists</string>
+    <string name="error_password_match">Password Does not Match</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="product_catalog_title">Product Catalog</string>
+    <string name="product_catalog_shopping_cart">View Shopping Cart</string>
+    <string name="product_details_add_to_cart">Add to Cart</string>
+    <string name="product_details_product_description">Product description</string>
+    <string name="product_details_image_view_cd">Product Image</string>
+    <string name="doa">Dead or Alive</string>
+    <string name="shopping_cart_title">Shopping Cart</string>
+    <string name="shopping_cart_button_click_to_edit">Click on a product to edit the quantity</string>
+    <string name="shopping_cart_button_checkout">Proceed to Checkout</string>
+    <string name="item_game_title">Game Title</string>
+    <string name="item_quantity">Quantity:</string>
+    <string name="item_image_cd">Game Image</string>
+    <string name="users_proceed_to_store">Proceed to Games Store</string>
+    <string name="product_details_currently_in_cart">Currently in Cart:</string>
+    <string name="product_details_quantity">Quantity:</string>
+    <string name="product_details_set_quantity">Set Quantity</string>
+    <string name="payment_heading">Payment module goes here</string>
+    <string name="exit_app">Exit</string>
+</resources>
